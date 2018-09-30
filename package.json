@@ -1,0 +1,20 @@
+{
+  "name": "earthview",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delold/earthview.git"
+  },
+  "main": "app.js",
+  "scripts": {
+    "prepublish": "node install.js"
+  },
+  "bin": {
+    "earthview": "./app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "wallpaper": "^4.0.0"
+  }
+}
