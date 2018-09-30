@@ -7,7 +7,7 @@
   },
   "main": "app.js",
   "scripts": {
-    "prepublish": "node install.js"
+    "prepare": "node install.js"
   },
   "bin": {
     "earthview": "./app.js"
