@@ -5,12 +5,12 @@
     "type": "git",
     "url": "https://github.com/delold/earthview.git"
   },
-  "main": "app.js",
+  "main": "library.js",
   "scripts": {
-    "prepare": "node install.js"
+    "prepare": "node prepare.js"
   },
   "bin": {
-    "earthview": "./app.js"
+    "earthview": "./cli.js"
   },
   "license": "MIT",
   "dependencies": {
